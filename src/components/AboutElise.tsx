@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import { Heart, Star, Clock, Users } from 'lucide-react';
 
 const highlights = [
-  { icon: Star, text: 'Navarro County Local' },
-  { icon: Heart, text: 'Reliable & Friendly Service' },
-  { icon: Clock, text: 'Flexible Scheduling' },
+  { icon: Star, text: 'Texas Born, Canada Raised' },
+  { icon: Heart, text: 'Passionate About Helping' },
+  { icon: Clock, text: '5+ Years of Service' },
   { icon: Users, text: 'Personalized Care' },
 ];
 
@@ -69,8 +69,14 @@ export default function AboutElise() {
             <div className="space-y-6 text-lg text-[#2D2D2D]/70 leading-relaxed">
               <p>
                 Hi, I&apos;m <span className="text-[#8B2635] font-semibold">Elise Contreras</span>,
-                founder of BRB Deliveries. Born and raised in the Streetman area, I started this
-                service to help our community — whether you&apos;re a busy parent, a senior who needs
+                founder of BRB Deliveries. Born in Texas and raised in Canada, I&apos;m proud to hold
+                dual citizenship — but my heart has always been drawn back to the Lone Star State.
+              </p>
+              <p>
+                I find true joy and fulfillment in life when I&apos;m helping others — it&apos;s my purpose.
+                For the past five years, I&apos;ve been helping people keep their homes clean and I&apos;ve
+                loved every moment of it. Now, with BRB Deliveries, I&apos;m expanding that mission to
+                serve our community in a new way — whether you&apos;re a busy parent, a senior who needs
                 a helping hand, or enjoying a weekend at Richland Chambers Lake.
               </p>
               <p>
