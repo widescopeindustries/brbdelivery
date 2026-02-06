@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --rose: #D4A5A5;
+  --burgundy: #8B2635;
+  --blush: #FDF2F2;
+  --cream: #FFFBF7;
+  --charcoal: #2D2D2D;
+  --gold: #D4AF37;
+}
+
+@theme inline {
+  --color-rose: #D4A5A5;
+  --color-burgundy: #8B2635;
+  --color-blush: #FDF2F2;
+  --color-cream: #FFFBF7;
+  --color-charcoal: #2D2D2D;
+  --color-gold: #D4AF37;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--cream);
+  color: var(--charcoal);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Falling petals animation */
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg) translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) rotate(720deg) translateX(100px);
+    opacity: 0;
+  }
+}
+
+.petal {
+  position: fixed;
+  top: -50px;
+  pointer-events: none;
+  animation: fall linear infinite;
+  z-index: 1;
+}
+
+/* Pulse animation for CTA */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(139, 38, 53, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(139, 38, 53, 0);
+  }
+}
+
+.pulse-cta {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Heart beat animation */
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.1);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--burgundy), var(--rose));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--rose);
+  color: var(--charcoal);
+}
