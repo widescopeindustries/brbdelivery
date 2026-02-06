@@ -46,7 +46,7 @@ export default function Header() {
                 isScrolled ? 'text-[#2D2D2D]' : 'text-[#2D2D2D]'
               }`}
             >
-              BRB Deliveries
+              BRB Delivery
             </span>
           </a>
 

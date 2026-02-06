@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Heart className="w-8 h-8 text-[#D4A5A5]" fill="#D4A5A5" />
-              <span className="text-2xl font-bold">BRB Deliveries</span>
+              <span className="text-2xl font-bold">BRB Delivery</span>
             </div>
             <p className="text-white/60 leading-relaxed">
               Your trusted local delivery partner for Streetman, Corsicana & Richland Chambers.
@@ -75,7 +75,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/10 text-center">
           <p className="text-white/60 flex items-center justify-center gap-2 flex-wrap">
-            © {currentYear} BRB Deliveries. Made with
+            © {currentYear} BRB Delivery. Made with
             <Heart className="w-4 h-4 text-[#D4A5A5] heartbeat" fill="#D4A5A5" />
             in Streetman, Texas.
           </p>

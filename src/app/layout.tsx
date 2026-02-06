@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://brbdeliveries.com"),
-  title: "BRB Deliveries | Grocery & Errand Delivery in Streetman, Corsicana & Richland Chambers",
+  title: "BRB Delivery | Grocery & Errand Delivery in Streetman, Corsicana & Richland Chambers",
   description: "Personal delivery service for Streetman, Corsicana & Richland Chambers Lake. Grocery shopping, errands & more. Call Elise: 469-506-6606. Same-day delivery available!",
   keywords: [
     "grocery delivery streetman tx",
@@ -16,26 +16,26 @@ export const metadata: Metadata = {
     "local delivery service texas",
   ],
   authors: [{ name: "Elise Contreras" }],
-  creator: "BRB Deliveries",
+  creator: "BRB Delivery",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://brbdeliveries.com",
-    siteName: "BRB Deliveries",
-    title: "BRB Deliveries | Local Delivery Service",
+    siteName: "BRB Delivery",
+    title: "BRB Delivery | Local Delivery Service",
     description: "Personal delivery service for Streetman, Corsicana & Richland Chambers Lake. Call Elise: 469-506-6606",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "BRB Deliveries - Bringing Love & Convenience Home",
+        alt: "BRB Delivery - Bringing Love & Convenience Home",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BRB Deliveries | Local Delivery Service",
+    title: "BRB Delivery | Local Delivery Service",
     description: "Personal delivery service for Streetman, Corsicana & Richland Chambers Lake.",
   },
   robots: {
@@ -62,7 +62,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "BRB Deliveries",
+              "name": "BRB Delivery",
               "description": "Personal delivery service for Streetman, Corsicana & Richland Chambers Lake area",
               "url": "https://brbdeliveries.com",
               "telephone": "+1-469-506-6606",
